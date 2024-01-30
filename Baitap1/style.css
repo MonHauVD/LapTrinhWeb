@@ -1,0 +1,41 @@
+body{
+    background-image: linear-gradient(to bottom right,rgb(25, 222, 143), rgb(121, 25, 224));
+    color: white;
+    text-align: center;
+
+}
+h1{
+    background-color: rgb(0, 208, 255);
+    color: black;
+    text-transform: capitalize;
+}
+table{
+    color: black;
+    padding: 10px;
+    border-spacing: 10px;
+    table-layout: fixed; 
+}
+td{
+    /* border: 2px solid black; */
+    border-radius: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: aquamarine;
+    -webkit-background-clip: padding;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    padding-right: 10;
+    padding-top: 10;
+    font-family: 'Segoe Bold', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 30px;
+    word-wrap: break-word;         /* All browsers since IE 5.5+ */
+    overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
+}
+/* ul {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    border-collapse: collapse;
+} */
+
+
